@@ -1,0 +1,24 @@
+{
+  "name": "typescript-amqp-hw",
+  "version": "1.0.0",
+  "description": "Simple AMQP based Hello World Node.js application in TypeScript prepared for Heroku deployment",
+  "main": "dist/server.js",
+  "repository": "https://github.com/htutman/typescript-amqp-hw.git",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "start": "node dist/server.js",
+    "prettier": "prettier src/**/*.ts --write"
+  },
+  "author": "Hrvoje Tutman",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "amqp-ts": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.13",
+    "@types/node": "^12.11.2",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  }
+}

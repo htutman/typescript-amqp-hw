@@ -1,0 +1,14 @@
+{
+  "name": "typescript-amqp-hw",
+  "description": "Simple AMQP based Hello World Node.js application in TypeScript prepared for Heroku deployment.",
+  "keywords": ["Heroku", "Node.js", "TypeScript", "AMQP"],
+  "addons": ["cloudamqp"],
+  "formation": {
+    "web": {
+      "quantity": 0
+    },
+    "amqp": {
+      "quantity": 1
+    }
+  }
+}

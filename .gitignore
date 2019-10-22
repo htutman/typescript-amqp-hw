@@ -1,0 +1,10 @@
+# Misc dotfiles
+.DS_Store
+.idea/ 
+.env
+
+# Dependencies
+node_modules/
+
+# Build products
+dist/
